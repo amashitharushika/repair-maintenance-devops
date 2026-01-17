@@ -12,6 +12,11 @@ body {
   background-color: #f5f5f5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -39,6 +44,8 @@ body {
 .logo h1 {
   font-size: 1.5rem;
   font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .nav {
@@ -68,8 +75,9 @@ body {
 
 .hero-content h2 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero-content p {
@@ -77,27 +85,30 @@ body {
   max-width: 700px;
   margin: 0 auto;
   opacity: 0.95;
+  line-height: 1.6;
 }
 
 /* Services Section */
 .services {
   padding: 4rem 0;
   background-color: white;
+  margin: 0;
 }
 
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 3rem;
+  margin: 0 0 3rem 0;
   color: #2c3e50;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
+  margin: 0;
 }
 
 .service-card {
@@ -116,25 +127,29 @@ body {
 
 .service-icon {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
+  line-height: 1;
 }
 
 .service-card h3 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
   color: #2c3e50;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .service-card p {
   color: #666;
   line-height: 1.6;
+  margin: 0;
 }
 
 /* Contact Section */
 .contact {
   padding: 4rem 0;
   background-color: #f8f9fa;
+  margin: 0;
 }
 
 .contact-content {
@@ -161,18 +176,22 @@ body {
 .contact-icon {
   font-size: 2.5rem;
   flex-shrink: 0;
+  line-height: 1;
+  margin: 0;
 }
 
 .contact-details h3 {
   font-size: 1.3rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0;
   color: #2c3e50;
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .contact-details p {
   color: #666;
   line-height: 1.8;
+  margin: 0;
 }
 
 /* Footer */
@@ -181,10 +200,12 @@ body {
   color: white;
   text-align: center;
   padding: 2rem 0;
+  margin: 0;
 }
 
 .footer p {
   margin: 0;
+  line-height: 1.6;
 }
 
 /* Responsive Design */
@@ -208,6 +229,7 @@ body {
 
   .section-title {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
 
   .service-cards {
